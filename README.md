@@ -17,7 +17,7 @@ Registry gère les images docker et les version d'images
 ## Installation et démarrage
 
 Cloner le repository sur le VPS ou le Serveur dédié
-`git clone https://github.com/sebastienherlant/private_registry.git`
+`git clone https://github.com/J2S-Just-Simple-Solutions/private_registry`
 
 Se positionner dans le dossier du projet
 `cd private_registry`
