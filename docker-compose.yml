@@ -11,6 +11,16 @@ services:
       - registry
     restart: unless-stopped
 
+  registry-ui:
+    image: joxit/docker-registry-ui:latest
+    container_name: registry_ui
+    environment:
+      - REGISTRY_TITLE=Private Docker Registry
+      - REGISTRY_URL=http://private_registry:5000
+    networks:
+      - registry
+    restart: unless-stopped
+
 networks:
   registry:
     external: true
