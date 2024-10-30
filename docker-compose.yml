@@ -16,7 +16,6 @@ services:
     container_name: registry_ui
     environment:
       - REGISTRY_TITLE=Private Docker Registry
-      - NGINX_PROXY_PASS_URL=${REGISTRY_URL}
     networks:
       - registry
     restart: unless-stopped
