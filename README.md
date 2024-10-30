@@ -7,6 +7,7 @@ Stocker les images docker
 
 ## Container de ce projet :
 Registry gère les images docker et les version d'images
+Registry-ui gère l'affichage des images sur l'url spécifiée dans le fichier de con
 
 ## Pré-requis
 
